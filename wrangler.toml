@@ -1,0 +1,8 @@
+name = "zak-telegram-bot"
+main = "src/index.js"
+compatibility_date = "2026-10-06"
+
+[vars]
+# Put non-secret configuration here.
+# Secrets should be added with `wrangler secret put`.
+AI_MODEL = "openai/gpt-4o-mini"
